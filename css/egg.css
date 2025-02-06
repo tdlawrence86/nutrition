@@ -1,0 +1,66 @@
+body {
+    background-color: #ffdd59;
+    overflow: hidden;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #070707;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+#egg {
+    height: 20px; 
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#fryingpanouter {
+    height: 200px;
+    width: 200px;
+    top: -100px;
+    left: 0%;
+    background-color: #1e272e;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid #131a21;
+}
+
+#fryingpaninner {
+    height: 175px;
+    width: 175px;
+    top: -80px;
+    left: 10%;
+    background-color: #262E38;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#handletop {
+    height: 25px;
+    width: 160px;
+    top: -15px;
+    left: 205%;
+    background-color: #FCB263;
+    border-radius: 0% 20% 20% 3%;
+    position: absolute;
+}
+
+#handlebottom {
+    height: 14px;
+    width: 160px;
+    top: 0px;
+    background-color: #E4A15A;
+    border-radius: 0% 20% 0% 3%;
+    position: absolute;
+}
